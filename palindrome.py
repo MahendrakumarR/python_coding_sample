@@ -1,0 +1,35 @@
+
+# palindrome
+
+
+def pal():
+    if name == name[::-1]:
+        print(f'The given string {name} is palindrome')
+    else:
+        print(f'The given string {name} is not a palindrome')
+name = input("Enter the string:")
+pal()
+
+# output
+
+"""
+    Enter the string:madam
+    The given string madam is palindrome
+
+"""
+
+# or
+
+pali = input("Enter the string:")
+
+if pali == pali[::-1]:
+    print(f'The given string {pali} is palindraome')
+else:
+     print(f'The given string {pali} is not a palindraome')
+
+# output
+
+"""
+    Enter the string:hello
+    The given string hello is not a palindraome
+"""

@@ -1,7 +1,7 @@
 # Reverse a string
 def reverse():
     name = input("Enter the String:")
-    print(name[::-1])
+    print("The reversed string is :",name[::-1])
 reverse()
 
 # output

@@ -33,17 +33,17 @@ print(" ")
 
 n=5
 for i in range(1,n+1): # here why use {n+1} n = 5 limits already declare. but here not give(1,n) -this is wrong becuase range take ( 1 to 4) so use (n+1) 
-    print(" " * (n-i) + "*" * (2 * i) + " " * (n-i) )
+    print(" " * (n-i) + "*" * (2 * i - 1) + " " * (n-i) )
 print(" ")
 
 # output
 
 """
     *    
-   **
-  ***
- ****
-*****
+   ***
+  *****
+ ******* 
+*********
 
 """
 
@@ -56,10 +56,10 @@ print()
 
 """
     *
-   ***   
-  *****  
- *******
-*********
+   **
+  ***
+ **** 
+*****
 
 """
 

@@ -33,3 +33,16 @@ else:
     Enter the string:hello
     The given string hello is not a palindraome
 """
+
+# or
+
+s = input("Enter the string:")
+v = ''
+for i in s:
+    v = i + v  
+print(v)
+
+if s == v:
+    print(f"The given string {s} is palindrome")
+else:
+    print(f"The given string {s} is not a palindrome")

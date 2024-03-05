@@ -24,6 +24,8 @@ else:
 
 """
 
+# or
+
 s1 = input("Enter the first word:")
 s2 = input("Enter the second word:")
 
@@ -34,4 +36,12 @@ if sorted(s1) == sorted(s2):
     print(f'The given string {s1} and {s2} are anagram')
 else:
     print(f'The given string {s1} and {s2} are not anagram')
+
+# output
+"""
+    Enter the first word:listen
+    Enter the second word:silent
+    The given string listen and silent are anagram
+
+"""
 

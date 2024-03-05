@@ -16,3 +16,20 @@ print(f"The factorial of {n} is :{val}")
     The factorial of 5 is :120
 
 """
+
+# or
+
+s = int(input("Enter the number:"))
+final = 1
+
+for i in range(1,s+1):
+    final = final * i
+print(f"The factorial of {s} is :",final)
+
+# output
+"""
+    Enter the number:10
+    The factorial of 10 is : 3628800
+
+"""
+

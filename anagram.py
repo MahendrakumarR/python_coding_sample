@@ -29,8 +29,8 @@ else:
 s1 = input("Enter the first word:")
 s2 = input("Enter the second word:")
 
-s1 = s1.replace(" ","".lower())
-s2 = s2.replace(" ","".lower())
+s1 = s1.replace(" " , "".lower())
+s2 = s2.replace(" " , "".lower())
 
 if sorted(s1) == sorted(s2):
     print(f'The given string {s1} and {s2} are anagram')

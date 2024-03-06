@@ -29,3 +29,8 @@ if result != -1:
     print(f"Element {target} is present at index {result}.")
 else:
     print("Element not found.")
+
+# output
+"""
+    Element 9 is present at index 4.
+"""

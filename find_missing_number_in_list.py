@@ -6,6 +6,12 @@ def find_missing_number(nums):
     return missing_number
 
 # Example usage:
-numbers = [21, 22, 23, 24, 25, 26, 28]
+numbers = [1, 2, 3, 4, 5, 6, 8]
 missing_num = find_missing_number(numbers)
 print("The missing number is:", missing_num)
+
+
+# Output
+"""
+    The missing number is:7
+"""

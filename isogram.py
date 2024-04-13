@@ -7,5 +7,5 @@ def is_isogram(s):
     return True
 
 # Test
-print(is_isogram("hello"))  # Output: False
+print(is_isogram("Hello"))  # Output: False
 print(is_isogram("world"))  # Output: True

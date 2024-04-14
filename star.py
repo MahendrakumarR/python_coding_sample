@@ -50,7 +50,7 @@ print(" ")
 # pyramid
 
 for i in range(1,6):
-    print(" " * (5-i) + "*" * i  + " " * (5-i) ) # here ( " " * (5 - i)) -is used for space beginig of the star then, ( "*" * (2 * i - 1)) -is used to howmany stars are print, star print after give space using ( " " * (5 - i))  
+    print(" " * (5-i) + "*" * i  + " " * (5-i) ) # Here ( " " * (5 - i)) -is used for space beginig of the star then, ( "*" * (2 * i - 1)) -is used to howmany stars are print, star print after give space using ( " " * (5 - i))  
 print()
 # output
 

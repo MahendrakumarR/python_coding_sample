@@ -8,10 +8,10 @@ def find_missing_number(nums):
 # Example usage:
 numbers = [1, 2, 3, 4, 5, 7, 8]
 missing_num = find_missing_number(numbers)
-print("The missing number is:", missing_num)
+print("The Missing Number is:", missing_num)
 
 
 # Output
 """
-    The missing number is:6
+    The Missing Number is:6
 """

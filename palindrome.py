@@ -36,7 +36,7 @@ else:
 
 # or
 
-s = input("Enter the string:")
+s = input("Enter the String:")
 v = ''
 for i in s:
     v = i + v  

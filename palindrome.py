@@ -20,7 +20,7 @@ pal()
 
 # or
 
-pali = input("Enter the string:")
+pali = input("Enter the String:")
 
 if pali == pali[::-1]:
     print(f'The given string {pali} is palindraome')
@@ -30,7 +30,7 @@ else:
 # output
 
 """
-    Enter the string:hello
+    Enter the String:hello
     The given string hello is not a palindraome
 """
 

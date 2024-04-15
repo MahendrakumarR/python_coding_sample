@@ -26,8 +26,8 @@ else:
 
 # or
 
-s1 = input("Enter the first word:")
-s2 = input("Enter the second word:")
+s1 = input("Enter the First Word:")
+s2 = input("Enter the Second Word:")
 
 s1 = s1.replace(" " , "".lower())
 s2 = s2.replace(" " , "".lower())
@@ -39,8 +39,8 @@ else:
 
 # output
 """
-    Enter the first word:listen
-    Enter the second word:silent
+    Enter the First Word:listen
+    Enter the Second Word:silent
     The given string listen and silent are anagram
 
 """

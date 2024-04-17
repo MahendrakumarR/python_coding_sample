@@ -14,9 +14,9 @@ def are_anagrams(str1, str2):
 string1 = "listen"
 string2 = "silent"
 if are_anagrams(string1, string2):
-    print(f"{string1} and {string2} are Anagrams.")
+    print(f"{string1} And {string2} are Anagrams.")
 else:
-    print(f"{string1} and {string2} are not Anagrams.")
+    print(f"{string1} And {string2} are not Anagrams.")
 
 # output
 """

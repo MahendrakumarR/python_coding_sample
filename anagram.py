@@ -20,7 +20,7 @@ else:
 
 # output
 """
-    listen and silent are anagrams.
+    listen And silent are anagrams.
 
 """
 

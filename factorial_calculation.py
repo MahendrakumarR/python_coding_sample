@@ -19,7 +19,7 @@ print(f"The factorial of {n} is :{val}")
 
 # or
 
-s = int(input("Enter the number:"))
+s = int(input("Enter the Number:"))
 final = 1
 
 for i in range(1,s+1):

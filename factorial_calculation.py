@@ -28,7 +28,7 @@ print(f"The factorial of {s} is :",final)
 
 # output
 """
-    Enter the number:10
+    Enter the Number:10
     The factorial of 10 is : 3628800
 
 """

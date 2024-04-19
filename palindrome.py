@@ -4,9 +4,9 @@
 
 def pal():
     if name == name[::-1]:
-        print(f'The given string {name} is palindrome')
+        print(f'The given string {name} is Palindrome')
     else:
-        print(f'The given string {name} is not a palindrome')
+        print(f'The given string {name} is not a Palindrome')
 name = input("Enter the string:")
 pal()
 
@@ -14,7 +14,7 @@ pal()
 
 """
     Enter the string:madam
-    The given string madam is palindrome
+    The given string madam is Palindrome
 
 """
 

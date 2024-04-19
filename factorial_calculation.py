@@ -24,7 +24,7 @@ final = 1
 
 for i in range(1,s+1):
     final = final * i
-print(f"The factorial of {s} is :",final)
+print(f"The Factorial of {s} is :",final)
 
 # output
 """

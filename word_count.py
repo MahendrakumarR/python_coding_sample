@@ -20,7 +20,7 @@ def count_words(string):
     return word_count
 
 # Example usage:
-input_string = "Hello world! This is a hello world program. World, hello?"
+input_string = "Hello World! This is a Hello world program. World, hello?"
 word_occurrences = count_words(input_string)
 
 # Iterate over each word and its count in the word_occurrences dictionary

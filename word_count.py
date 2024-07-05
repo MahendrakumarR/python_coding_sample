@@ -23,7 +23,7 @@ def count_words(string):
 input_string = "Hello World! This is a Hello world program. World, hello?"
 word_occurrences = count_words(input_string)
 
-# Iterate over each word and its count in the word_occurrences dictionary
+# Iterate over each word and its Count in the word_occurrences Dictionary
 for word, count in word_occurrences.items():
     # Print the word and its count
     print(f"{word}: {count}")

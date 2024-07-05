@@ -16,7 +16,7 @@ def count_words(string):
         else:
             word_count[word] = 1
 
-    # Return the dictionary containing word counts
+    # Return the dictionary Containing word counts
     return word_count
 
 # Example usage:

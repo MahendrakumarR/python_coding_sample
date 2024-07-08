@@ -18,7 +18,7 @@ if are_anagrams(string1, string2):
 else:
     print(f"{string1} And {string2} are not Anagrams.")
 
-# output
+# Oututput
 """
     listen And silent are anagrams.
 

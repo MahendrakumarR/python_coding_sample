@@ -1,13 +1,13 @@
 def are_anagrams(str1, str2):
-    # Remove spaces and convert strings to lowercase
+    # Remove spaces and convert Strings to lowercase
     str1 = str1.replace(" ", "").lower()
     str2 = str2.replace(" ", "").lower()
     
-    # Check if the lengths of the strings are equal
+    # Check if the lengths of the Strings are equal
     if len(str1) != len(str2):
         return False
     
-    # Sort the characters in both strings and compare
+    # Sort the characters in both Strings and compare
     return sorted(str1) == sorted(str2)
 
 # Example usage:

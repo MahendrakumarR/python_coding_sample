@@ -1,4 +1,4 @@
-# factorial 
+# Factorial 
 
 def factorial(n):
     result = 1
